@@ -1,10 +1,9 @@
 const courses = [
-  "Hors d'oeuvres",
-  "Soupe",
-  "Poisson",
-  "Salade",
-  "Plât principal",
-  "Dessert"
+  "Lundi",
+  "Mardi",
+  "Mercredi",
+  "Jeudi",
+  "Vendredi"
 ]
 
 function getCourseName(number) {

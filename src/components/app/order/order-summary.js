@@ -5,6 +5,7 @@ import OrderSummaryView from "./order-summary-view"
 export default class OrderSummary extends Component {
   render() {
     const { selectedItems } = this.props
+    // eslint-disable-next-line
     return Object.keys(selectedItems).map(item => {
       if (selectedItems[item].length !== 0) {
         let courseItems = []
