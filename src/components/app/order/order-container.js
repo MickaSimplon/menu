@@ -112,8 +112,8 @@ export default class OrderContainer extends Component {
           <button className="button default" onClick={this.handleNextCourse}>
             {Object.keys(this.state.selectedItems).length - 1 !==
             this.props.course
-              ? "Choix Suivant"
-              : "Veuillez finir votre commande"}
+              ? "Jours Suivant"
+              : "Veuillez finire votre commande"}
           </button>
         </div>
       )
